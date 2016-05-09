@@ -26,7 +26,7 @@ Objectives
 run_analysis.R
 -----------------
 
-1. It downloads the **UCI HAR Dataset** data set and puts the zip file working directrory. After it is downloaded, it unzips the file into the UCI HAR Dataset folder. 
+1. It downloads the **UCI HAR Dataset** data set and puts the zip file working directrory using **downloader** package. After it is downloaded, it unzips the file into the UCI HAR Dataset folder. 
 2. It loads the **train** and **test** data sets and appends the two datasets into one data frame. This is done using `rbind`.
 3. It extracts just the *mean* and *standard deviation* from the **features** data set. This is done using `grep`.
 4. After cleaning the column names, these are applied to the **x** data frame.  
